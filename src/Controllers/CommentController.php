@@ -100,7 +100,7 @@ class CommentController extends Controller
             $user = self::getUser($userId);
             $comment->name = $user['name'];
             $comment->email = $user['email'];
-	        $comment->avatar = '/assets/admin/img/avatars/avatar.png';
+	        $comment->avatar = $user['avatar']?$user['avatar']:'/assets/admin/img/avatars/avatar.png';
         }
 
         return $comments;
