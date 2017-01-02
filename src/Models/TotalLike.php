@@ -13,6 +13,8 @@ class TotalLike extends Model
      */
     protected $table = 'laravellikecomment_total_likes';
 
+	protected $dates = ['created_at','updated_at'];
+
     /**
 	 * Fillable array
      */

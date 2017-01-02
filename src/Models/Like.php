@@ -13,6 +13,8 @@ class Like extends Model
      */
     protected $table = 'laravellikecomment_likes';
 
+	protected $dates = ['created_at','updated_at'];
+
     /**
 	 * Fillable array
      */

@@ -15,5 +15,6 @@ Route::group(['namespace' => 'risul\LaravelLikeComment\Controllers', 'prefix'=>'
 	Route::group(['middleware' => 'auth'], function (){
 		Route::get('/like/vote', 'LikeController@vote');
 		Route::get('/comment/add', 'CommentController@add');
+		Route::get('/comment/remove', 'CommentController@remove');
 	});
 });

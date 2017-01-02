@@ -2,9 +2,9 @@
 
 namespace risul\LaravelLikeComment\Controllers;
 
-use App\Http\Controllers\Controller;
+use Brewme\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Http\Requests;
+use Brewme\Http\Requests;
 use risul\LaravelLikeComment\Models\Like;
 use risul\LaravelLikeComment\Models\TotalLike;
 use Auth;

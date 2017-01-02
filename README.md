@@ -14,9 +14,7 @@ laravel-like-comment is an ajax based like and commenting system for laravel. Wh
 * User avatar in comment
 
 ## Demo
-[Try it](http://risul.herokuapp.com/laravel-like-comment)
-
-[Watch](https://www.youtube.com/watch?v=06kcpsnN-bo)
+https://www.youtube.com/watch?v=06kcpsnN-bo
 
 ## Installation
 

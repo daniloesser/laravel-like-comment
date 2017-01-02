@@ -13,6 +13,8 @@ class Comment extends Model
      */
     protected $table = 'laravellikecomment_comments';
 
+	protected $dates = ['created_at','updated_at'];
+
     /**
 	 * Fillable array
      */
